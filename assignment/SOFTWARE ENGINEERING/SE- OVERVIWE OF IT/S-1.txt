@@ -1,0 +1,48 @@
+TASK 1
+1-Name 5 IT job roles and write one line about what each role does.
+1. Software Developer – Designs, writes, tests, and maintains computer programs and applications.
+2. Network Administrator – Manages and maintains an organization's computer networks and internet connections.
+3.Database Administrator (DBA) – Organizes, secures, and manages databases to ensure data is available and accurate.
+4. Cybersecurity Analyst – Protects computer systems and networks from cyber threats, attacks, and unauthorized access.
+5. IT Support Specialist – Helps users troubleshoot and resolve hardware, software, and technical issues.
+
+2-List 3 product companies and 3 service companies with one example of work each does.
+>Product Companies
+Apple – Manufactures smartphones such as the iPhone.
+Samsung – Produces televisions and electronic devices.
+Nike – Designs and sells sports shoes and apparel.
+>Service Companies
+Tata Consultancy Services (TCS) – Provides IT consulting and software development services.
+Infosys – Offers business and technology consulting services.
+FedEx – Provides package delivery and logistics services.
+
+3-Write the full forms and one-line use of: GitHub, Slack, Jira, IDE, API.
+1. GitHub-(Git Hub)
+Use: GitHub is used to store, manage, and collaborate on software code projects.
+
+2. Slack-(Searchable Log of All Communication and Knowledge)
+Use: Slack is used for team communication, messaging, and collaboration.
+
+3. Jira-(Not an acronym; derived from "Gojira")
+Use: Jira is used to track tasks, manage projects, and report software bugs.
+
+4. IDE-(Integrated Development Environment)
+Use: An IDE is used to write, test, and debug computer programs in one place.
+
+5. API-(Application Programming Interface)
+Use: An API allows different software applications to communicate and share data with each other.
+
+4-Name any 5 programming languages and mention one popular use case for each.
+1. Python – Used for data analysis, machine learning, and automation.
+2. Java – Used for developing Android applications and enterprise software.
+3. JavaScript – Used for creating interactive websites and web applications.
+4. C++ – Used for game development and high-performance applications.
+5. SQL – Used for managing and querying databases.
+
+5-What is the difference between a developer and a tester? Answer in 2 lines.
+A developer writes and builds software applications by creating code and implementing features.
+A tester checks the software for bugs, errors, and quality issues to ensure it works correctly.
+
+
+
+
