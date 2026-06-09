@@ -1,0 +1,40 @@
+TASK3
+
+1-Write the full form and one-line use of: HTTP, HTTPS, FTP, SMTP.
+1.HTTP (HyperText Transfer Protocol): Used to transfer web pages and data between a web browser and a web server.
+2.HTTPS (HyperText Transfer Protocol Secure): A secure version of HTTP that encrypts data during transmission.
+3.FTP (File Transfer Protocol): Used to upload and download files over a network.
+4.SMTP (Simple Mail Transfer Protocol): Used to send emails from one mail server or client to another.
+
+2-What is the difference between IPv4 and IPv6? Answer in 2 lines.
+1.IPv4 uses 32-bit addresses (e.g., 192.168.1.1) and supports about 4.3 billion unique addresses.
+2.IPv6 uses 128-bit addresses (e.g., 2001:db8::1) and supports a much larger number of unique addresses.
+
+3-Run nslookup google.com on your system and write down the IP address you get.
+>After running nslookup google.com, I got the following IP addresses:
+IPv4 Address: 142.250.206.142
+IPv6 Address: 2404:6800:4009:81e::200e
+
+4-What do these HTTP status codes mean: 200, 301, 404, 500, 403?
+200 OK – Request successful, page/resource loaded correctly.
+301 Moved Permanently– The page has been permanently moved to a new URL.
+404 Not Found – The requested page or resource could not be found.
+500 Internal Server Error – The server encountered an unexpected error.
+403 Forbidden – Access to the requested page or resource is denied.
+
+5-Explain DNS hierarchy (root, TLD, domain, subdomain) with www.google.com as an example.
+>DNS Hierarchy using `www.google.com` as an example:
+1. Root (.)– The top level of the DNS hierarchy. It directs queries to the correct TLD server.
+2. TLD (Top-Level Domain) – `.com`– Identifies the domain category and points to the authoritative domain server.
+3. Domain – `google.com` – The registered domain name owned by Google.
+4. Subdomain – `www.google.com` – `www` is a subdomain of `google.com` used to access Google's website.
+>Hierarchy:
+
+```
+Root (.)
+ └── .com (TLD)
+      └── google.com (Domain)
+           └── www.google.com (Subdomain)
+```
+
+
