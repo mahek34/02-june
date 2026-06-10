@@ -1,0 +1,39 @@
+TASK4
+
+1-List all 6 phases of SDLC in order with one line about each.
+>Here are the 6 phases of SDLC in order:
+1. Planning – The project goals, scope, timeline, and budget are defined.
+2. Requirements Analysis – User needs and system requirements are collected and analyzed.
+3. Design – The system architecture, database, and UI design are created.
+4. Implementation (Development) – Developers write code to build the actual software.
+5. Testing – The software is tested to find and fix bugs and ensure quality.
+6. Maintenance – After deployment, updates, fixes, and improvements are made.
+
+2-Write 3 differences between Agile and Waterfall models.
+>Here are 3 differences between Agile and Waterfall models:
+1. Process style – Agile is iterative and flexible, while Waterfall is linear and follows a step-by-step flow.
+2. Changes – In Agile, requirements can change at any stage, but in Waterfall, changes are difficult once the process has started.
+3. Delivery – Agile delivers the product in small parts (iterations), while Waterfall delivers the complete product at the end.
+
+3-Name the 3 main Scrum roles and write one line about the responsibility of each.
+>Here are the 3 main Scrum roles :
+1. Product Owner – Responsible for defining the product vision and managing the product backlog.
+2. Scrum Master – Ensures the Scrum process is followed properly and helps remove any blockers for the team.
+3. Development Team – A group of professionals who design, build, test, and deliver the product increment.
+
+4-What is a Sprint in Scrum? Mention its typical duration.
+>A Sprint in Scrum is a fixed time period during which a team works to complete a specific set of tasks and deliver a usable product increment.
+>Typical duration: Usually 1 to 4 weeks(most commonly 2 weeks).
+
+5-What do these Jira board columns mean: To Do, In Progress, Done, Backlog?
+>Here’s what Jira board columns mean :
+1. Backlog – All tasks/user stories that are planned but not yet picked for work.
+2. To Do – Tasks that are selected for the current sprint and ready to start.
+3. In Progress – Tasks that are currently being worked on by the team.
+4. Done – Tasks that are completed, tested, and finished.
+
+
+
+
+
+
