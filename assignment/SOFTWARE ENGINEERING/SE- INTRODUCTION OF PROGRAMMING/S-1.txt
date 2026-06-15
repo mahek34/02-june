@@ -1,0 +1,54 @@
+TASK1
+
+Q1-Write a short paragraph in your own words defining what a 'program' is and give one real-life example froMany app you use daily (like Instagram, Zomato, or Paytm).
+Answer:A program is a set of instructions given to a computer to perform a specific task. It helps the computer know what to do and how to do it. For example, when I use Instagram, a program helps me view posts, watch reels, and send messages to my friends.
+
+Q2-List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be both.<br><br><em><strong>Hint:</strong> Think of languages like Java, Python, and JavaScript.</em>
+Answer:>Three popular programming languages are Python, Java, and JavaScript.
+1.Python – It is usually an **interpreted** programming language.
+2.Java – It can be **both compiled and interpreted**.
+3.JavaScript – It is usually an **interpreted** programming language.
+These languages are widely used for software development, web development, and other computer applications.
+Q3-Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+Answer:
+Start
+  ↓
+Open BookMyShow App
+  ↓
+Select City
+  ↓
+Choose Movie
+  ↓
+Select Theatre & Show Time
+  ↓
+Choose Seats
+  ↓
+Proceed to Payment
+  ↓
+Make Payment
+  ↓
+Payment Successful?
+ ┌────Yes────┐
+ ↓           ↓ No
+Receive    Show Error
+Booking      Message
+Confirmation  ↓
+ ↓          End
+End
+
+Q4-Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+Answer:>Algorithm for Ordering Food on Swiggy
+1. Start.
+2. Open the Swiggy application.
+3. Log in to your account.
+4. Enter or confirm your delivery location.
+5. Search for a restaurant or food item.
+6. Select the restaurant.
+7. Choose the food items you want to order.
+8. Add the selected items to the cart.
+9. Review the items in the cart.
+10. Proceed to checkout.
+11. Select a payment method.
+12. Complete the payment process.
+13. Receive the order confirmation.
+14. End.
