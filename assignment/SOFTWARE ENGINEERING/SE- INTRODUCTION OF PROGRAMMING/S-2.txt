@@ -1,0 +1,14 @@
+TASK2
+
+Q1.Install GCC on your computer and verify the installation by running gcc --version in your terminal or command prompt.
+Answer:I installed GCC on my computer and verified the installation by running the command gcc --version in the terminal. The command displayed the GCC version information, confirming that GCC was installed successfully.
+
+gcc (MinGW.org GCC-6.3.0-1) 6.3.0
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Q2.Open VS Code or DevC++ and create a new file named hello.c. Write a C program that prints 'Hello, Instagram World!' to the console.
+
+Q3.Identify and label the header, main function, and return statement in your hello.c program using comments.
+Q4.Compile your hello.c file using the GCC command line (gcc hello.c -o hello) and run the output file to display the message in your terminal.<br><br><em><strong>Hint:</strong> On Windows, the output file will be hello.exe; on Linux/Mac, it will be hello.</em>
