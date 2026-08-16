@@ -1,0 +1,49 @@
+
+1.Declare variables for a Flipkart product: productName (as a string), price (float), and rating (double). Assign sample values and print each variable with its data type.
+ANSWER:#include <stdio.h>
+int main()
+{
+    char productName[] = "Smart Watch";
+    float price = 1499.50;
+    double rating = 4.5;
+
+    printf("Product Name: %s (string)\n", productName);
+    printf("Price: %.2f (float)\n", price);
+    printf("Rating: %.1lf (double)\n", rating);
+
+    return 0;
+}
+2.Create a constant variable to store the GST rate (for example, 18%) and use it to calculate the final price of a Zomato order with a given base price.The GST rate must not be changeable after its initial assignment.
+ANSWER:#include <stdio.h>
+int main()
+{
+    const float GST = 18.0;
+    float price = 500;
+    float finalPrice;
+
+    finalPrice = price + (price * GST / 100);
+
+    printf("Final Price = %.2f", finalPrice);
+
+    return 0;
+}
+3.Write a program that stores your favorite Spotify playlist's name (string), total number of songs (int), and average song duration in minutes (float). Print all values in a single formatted sentence.
+ANSWER:#include <stdio.h>
+int main()
+{
+    char playlistName[] = "My Favorites";
+    int totalSongs = 25;
+    float averageDuration = 3.5;
+
+    printf("My playlist is %s, it has %d songs and average song duration is %.1f minutes.",
+           playlistName, totalSongs, averageDuration);
+
+    return 0;
+}
+4.Identify and correct the invalid variable names from this list: 1stPlayer, player_age, $score, total-marks, userName. Apply standard variable naming rules for your programming language.
+ANSWER:
+1stPlayer   -> firstPlayer
+player_age  -> player_age
+$score      -> score
+total-marks -> total_marks
+userName    -> userName
