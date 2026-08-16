@@ -1,4 +1,4 @@
-TASK6
+TASK7
 1.Use nested for loops to print a grid of emojis representing a 5x5 Instagram post feed, where each cell shows a 📷 symbol.
 ANSWER:#include <stdio.h>
 
