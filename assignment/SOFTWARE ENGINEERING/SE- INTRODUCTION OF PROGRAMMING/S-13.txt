@@ -1,0 +1,80 @@
+TASK13
+1.
+Create a file called playlist.txt and write the names of your top 3 favorite songs from Spotify into it using write mode (w).
+ANSWER:#include <stdio.h>
+
+int main()
+{
+    FILE *fp;
+
+    fp = fopen("playlist.txt", "w");
+
+    fprintf(fp, "Perfect\n");
+    fprintf(fp, "Believer\n");
+    fprintf(fp, "Love Story\n");
+
+    fclose(fp);
+
+    return 0;
+}
+2.
+Open playlist.txt in read mode (r) and display each song name on a separate line in the console.
+ANSWER:#include <stdio.h>
+
+int main()
+{
+    FILE *fp;
+    char song[50];
+
+    fp = fopen("playlist.txt", "r");
+
+    while(fgets(song, 50, fp) != NULL)
+    {
+        printf("%s", song);
+    }
+
+    fclose(fp);
+
+    return 0;
+}
+3.
+Add two more song names to playlist.txt without deleting the existing ones by opening the file in append mode (a).
+ANSWER:#include <stdio.h>
+
+int main()
+{
+    FILE *fp;
+
+    fp = fopen("playlist.txt", "a");
+
+    fprintf(fp, "Shape of You\n");
+    fprintf(fp, "Love Me Like You Do\n");
+
+    fclose(fp);
+
+    return 0;
+}
+4.
+Write a program that reads all song names from playlist.txt and prints only those that contain the word 'love' (case-insensitive).Use the 'in' keyword or equivalent string method for filtering.
+ANSWER:#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    FILE *fp;
+    char song[50];
+
+    fp = fopen("playlist.txt", "r");
+
+    while(fgets(song, 50, fp) != NULL)
+    {
+        if(strstr(song, "Love") != NULL || strstr(song, "love") != NULL)
+        {
+            printf("%s", song);
+        }
+    }
+
+    fclose(fp);
+
+    return 0;
+}

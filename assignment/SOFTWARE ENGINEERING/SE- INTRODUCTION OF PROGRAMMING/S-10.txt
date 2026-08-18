@@ -1,3 +1,4 @@
+TASK10
 1.Declare a 1D array called dailySteps with 7 elements to store your step count for each day of the week, assign sample values, and print each value using a loop.
 ANSWER:#include <stdio.h>
 
@@ -81,3 +82,4 @@ int main()
 
     return 0;
 }
+

@@ -1,0 +1,94 @@
+MINI_PROJECT
+
+#include <stdio.h>
+
+int main()
+{
+    int minutes[7];
+    int choice, i;
+    int total, highest;
+    char ch;
+    FILE *fp;
+
+    while(1)
+    {
+        printf("\n1. Enter Minutes\n");
+        printf("2. View Data\n");
+        printf("3. Report\n");
+        printf("4. Reset\n");
+        printf("5. Exit\n");
+
+        printf("Enter choice: ");
+        scanf("%d", &choice);
+
+        if(choice == 1)
+        {
+            fp = fopen("music_log.txt", "w");
+
+            for(i = 0; i < 7; i++)
+            {
+                printf("Enter minutes for day %d: ", i + 1);
+                scanf("%d", &minutes[i]);
+
+                fprintf(fp, "%d\n", minutes[i]);
+            }
+
+            fclose(fp);
+            printf("Data saved!\n");
+        }
+
+        else if(choice == 2)
+        {
+            for(i = 0; i < 7; i++)
+            {
+                printf("Day %d = %d minutes\n", i + 1, minutes[i]);
+            }
+        }
+
+        else if(choice == 3)
+        {
+            total = 0;
+            highest = minutes[0];
+
+            for(i = 0; i < 7; i++)
+            {
+                total = total + minutes[i];
+
+                if(minutes[i] > highest)
+                {
+                    highest = minutes[i];
+                }
+            }
+
+            printf("Total = %d\n", total);
+            printf("Average = %.2f\n", total / 7.0);
+            printf("Highest = %d\n", highest);
+        }
+
+        else if(choice == 4)
+        {
+            printf("Reset data? (y/n): ");
+            scanf(" %c", &ch);
+
+            if(ch == 'y')
+            {
+                for(i = 0; i < 7; i++)
+                {
+                    minutes[i] = 0;
+                }
+
+                fp = fopen("music_log.txt", "w");
+                fclose(fp);
+
+                printf("Data reset!\n");
+            }
+        }
+
+        else if(choice == 5)
+        {
+            break;
+        }
+    }
+
+    return 0;
+}
